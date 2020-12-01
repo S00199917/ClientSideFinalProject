@@ -1,3 +1,106 @@
 {
-    "text":"hello"
+    "game": [
+        {
+            "title": "A Way Out"
+        },
+        {
+            "title": "Among us"
+        },
+        {
+            "title": "Animal Crossing: New Horizons"
+        },
+        {
+            "title": "Beat Sabre"
+        },
+        {
+            "title": "BorderLands 3"
+        },
+        {
+            "title": "Crash Bandicoot 4: It's About Time"
+        },
+        {
+            "title": "Crusader Kings 3"
+        },
+        {
+            "title": "Cyberpunk 2077"
+        },
+        {
+            "title": "Dark Souls Remastered"
+        },
+        {
+            "title": "Detroit: Become Human"
+        },
+        {
+            "title": "DOOM Eternal"
+        },
+        {
+            "title": "Fall Guys"
+        },
+        {
+            "title": "Far Cry 5"
+        },
+        {
+            "title": "FIFA 21"
+        },
+        {
+            "title": "Genshin Impact"
+        },
+        {
+            "title": "Half-Life: Alyx"
+        },
+        {
+            "title": "Halo Infinite"
+        },
+        {
+            "title": "Hyrule Warriors: Age of Calamity"
+        },
+        {
+            "title": "Luigi's Mansion 3"
+        },
+        {
+            "title": "Marvel's Spider-Man"
+        },
+        {
+            "title": "Microsoft, Flight Simulator 2020"
+        },
+        {
+            "title": "Minecraft Dungeons"
+        },
+        {
+            "title": "Paper Mario: The Origami King"
+        },
+        {
+            "title": "Pokémon Sword and Shield"
+        },
+        {
+            "title": "Red Dead Redemption 2"
+        },
+        {
+            "title": "Spelunky 2"
+        },
+        {
+            "title": "Spider-Man: Miles Morales"
+        },
+        {
+            "title": "Super Mario Maker 2"
+        },
+        {
+            "title": "Tetris 99"
+        },
+        {
+            "title": "The Last of Us Par 2"
+        },
+        {
+            "title": "The Legend of Zelda: Link's Awakening"
+        },
+        {
+            "title": "Tony hawk's Pro Skater 1 + 2"
+        },
+        {
+            "title": "Untitled Goose Game"
+        },
+        {
+            "title": "Watch Dogs: Legion"
+        }
+    ]
 }
