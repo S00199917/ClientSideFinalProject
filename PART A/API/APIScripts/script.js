@@ -17,60 +17,83 @@ async function sendApiRequest(URL) {
 }
 
 function Characters(data) {
-    const container = document.getElementById("RickAndMortyCharacters");
-    container.style.marginTop = "100px";
-    const container2 = document.createElement("div");
+    const table = document.getElementById("RickAndMortyCharacters");
+    table.style.marginTop = "100px";
 
-    for (let index = 0; index < data.results.length; index++) {
-        const characterImage = document.createElement("img");
+    for (let i = 0; i < data.results.length; i++) {
+        //#region elements
+        //Row for the table
+        const character = document.createElement("tr");
+        //Column that contains the character image
+        const characterImage = document.createElement("th");
+        const characterPicture = document.createElement("img");
+
+        //Column that contains the character information
+        const characterText = document.createElement("th");
         const characterInfo = document.createElement("ul");
         const characterInfoName = document.createElement("li");
         const characterInfoStatus = document.createElement("li");
         const characterInfoSpecies = document.createElement("li");
         const characterInfoOrigin = document.createElement("li");
         const characterInfoLocation = document.createElement("li");
-        const lineBreak = document.createElement("br");
+        //#endregion elements
 
-        //Prints the image
-        characterImage.setAttribute("src", data.results[index].image);
-        characterImage.style.minWidth = "16.25em"
-        characterImage.style.display = "block";
-        characterImage.style.clipPath = "circle(50% at 50% 50%)";
+        //Adds the character image
+        characterPicture.setAttribute("src", data.results[i].image);
 
-        //Prints the name of the character
-        characterInfoName.innerHTML = "<b>" + "Name: " + "</b>" + data.results[index].name;
+        //Adds the character name
+        characterInfoName.innerHTML = "Name: " + data.results[i].name;
 
-        //Prints the status of the character
-        characterInfoStatus.innerHTML = "<b>" + "Status: " + "</b>" + data.results[index].status;
+        //Adds the character status
+        characterInfoStatus.innerHTML = "Status: " + data.results[i].status;
 
-        //prints the species of the character
-        characterInfoSpecies.innerHTML = "<b>" + "Species: " + "</b>" + data.results[index].species;
+        //Adds the character species
+        characterInfoSpecies.innerHTML = "Species: " + data.results[i].species;
 
-        //Prints the origin of the character
-        characterInfoOrigin.innerHTML = "<b>" + "Origin: " + "</b>" + data.results[index].origin.name;
+        //Adds the character origin
+        characterInfoOrigin.innerHTML = "Origin: " + data.results[i].origin.name;
 
-        //Prints the current location of the character
-        characterInfoLocation.innerHTML = "<b>" + "Current location: " + "</b>" + data.results[index].location.name;
+        //Adds the character origin
+        characterInfoLocation.innerHTML = "Current location: " + data.results[i].location.name;
 
-        //appends child elements to parent element characterInfo
+        //Appends children to parent element characterInfo
         characterInfo.appendChild(characterInfoName);
         characterInfo.appendChild(characterInfoStatus);
         characterInfo.appendChild(characterInfoSpecies);
         characterInfo.appendChild(characterInfoOrigin);
         characterInfo.appendChild(characterInfoLocation);
 
-        //appends child elements to parent element container2
-        container2.appendChild(characterImage);
-        container2.appendChild(characterInfo);
-        container2.appendChild(lineBreak);
+        characterInfo.style.listStyleType = "none";
+        characterInfo.style.margin = "0";
+        characterInfo.style.padding = "0";
 
-        //appends child element container2 to parent element container
-        container.appendChild(container2)
+        //Appends characterPicture to characterImage
+        characterImage.appendChild(characterPicture);
+
+        characterImage.style.width = "300px";
+        characterImage.style.height = "300px";
+
+        //Appends characterInfo to characterText
+        characterText.appendChild(characterInfo);
+
+        characterText.style.padding = "0px";
+        characterText.style.position = "relative";
+        characterText.style.top = "-280px";
+        characterText.style.fontSize = "30px";
+
+        //Appends characterText and characterImage to character
+        character.appendChild(characterImage);
+        character.appendChild(characterText);
+
+        //Appends character to table
+        table.appendChild(character);
     }
+
+
     //Loops through the data until the next page is null
     if (data.info.next != null) {
         sendApiRequest(data.info.next);
     }
 }
 
-
+//Anything under this comment should be used for the first part
