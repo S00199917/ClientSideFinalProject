@@ -1,6 +1,5 @@
 (function () {
     //This runs when the webpage loads
-
     sendApiRequest("https://rickandmortyapi.com/api/character");
     sendBreakingBad('https://www.breakingbadapi.com/api/characters');
 }());
