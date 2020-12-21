@@ -1,0 +1,459 @@
+{
+    "game": [
+        {
+            "title": "A Way Out",
+            "genre": [
+                "Action-adventure"
+            ],
+            "title, image, genre, dev, publisher, engine, platform, releaseDate": [
+                "Hazelight Studios"
+            ],
+            "publisher": [
+                "Electronic Arts"
+            ],
+            "engine": "Unreal Engine",
+            "platform": [
+                "Windows",
+                "PS4",
+                "Xbox 1"
+            ],
+            "releaseDate": [
+                "March 23 2018 on all platforms"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/8/83/A_Way_Out_Logo.jpg"
+        },
+        {
+            "title": "Among us",
+            "genre": [
+                "Party",
+                "Social deduction"
+            ],
+            "developer": [
+                "Innersloth"
+            ],
+            "publisher": [
+                "Innersloth"
+            ],
+            "engine": "Unity",
+            "platform": [
+                "Windows",
+                "Android",
+                "IOS"
+            ],
+            "releaseDate": [
+                "Android and IOS: June 15 2018",
+                "Windows: November 16 2018"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/commons/c/c2/Amongus_wordmark.svg"
+        },
+        {
+            "title": "Animal Crossing: New Horizons",
+            "genre": [
+                "Social simulator"
+            ],
+            "developer": [
+                "Nintendo EPD"
+            ],
+            "publisher": [
+                "Nintendo"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "Nintendo Switch"
+            ],
+            "releaseDate": [
+                "Nintendo Switch: March 20 2020"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg"
+        },
+        {
+            "title": "Beat Saber",
+            "genre": [
+                "Rhythm"
+            ],
+            "developer": [
+                "Beat Games"
+            ],
+            "publisher": [
+                "Beat Games"
+            ],
+            "engine": "Unity",
+            "platform": [
+                "Oculus VR",
+                "Steam VR",
+                "PlayStation VR"
+            ],
+            "releaseDate": [
+                "May 21 2019 on all platforms"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/5/58/Beat_Saber_logo.jpg"
+        },
+        {
+            "title": "Borderlands 3",
+            "genre": [
+                "Action Role-Playing",
+                "First-Person Shooter"
+            ],
+            "developer":[
+                "Gearbox Software"
+            ],
+            "publisher":[
+                "2K Games"
+            ],
+            "engine":"Unearl Engine 4",
+            "platform":[
+                "macOS",
+                "Stadia",
+                "Microsoft Windows",
+                "PlayStation 4",
+                "Xbox One",
+                "Xbox Series X/S",
+                "PlayStation 5"
+            ],
+            "releaseDate":[
+                "September 13 2019 for Windows, macOS, PS4, Xbox One",
+                "December 17 2019 for Stadia",
+                "November 10 2020 for Xbox Series X/S",
+                "November 12 2020 for PS5"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/2/21/Borderlands_3_cover_art.jpg"
+        },
+        {
+            "title": "Crash Bandicoot 4: It's About Time",
+            "genre": [
+                "Platform"
+            ],
+            "developer": [
+                "Toys for Bob"
+            ],
+            "publisher": [
+                "Activision"
+            ],
+            "engine": "Unreal Engine",
+            "platform": [
+                "PlayStation 4",
+                "Xbox 1"
+            ],
+            "releaseDate": [
+                "Octobor 2 2020 on all platforms"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/3/39/Crash_Bandicoot_4_Box_Art.jpeg"
+        },
+        {
+            "title": "Crusader Kings 3",
+            "genre": [
+                "Grand strategy",
+                "Role-Playing Game"
+            ],
+            "developer": [
+                "Paradox Development Studio"
+            ],
+            "publisher": [
+                "Paradox Interactive"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "Windows",
+                "macOS",
+                "Linux"
+            ],
+            "releaseDate": [
+                "WorldWide: September 1 2020",
+                "Australasia: September 7 2020"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/a/a3/Crusader_Kings_III.jpg"
+        },
+        {
+            "title":"Death Stranding",
+            "genre": [
+                "Action"
+            ],
+            "developer":[
+                "Kojima Productions"
+            ],
+            "publisher":[
+                "Sony Interactive Entertainment (PS4)",
+                "505 Games (PC)"
+            ],
+            "engine":"Decima",
+            "platform":[
+                "PlayStation 4",
+                "Microsoft Windows"
+            ],
+            "releaseDate":[
+                "November 8 2019 for PS4",
+                "July 14 2020 for Windows"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/2/22/Death_Stranding.jpg"
+        },
+        {
+            "title": "Detroit: Become Human",
+            "genre": [
+                "Adventure"
+            ],
+            "developer": [
+                "Quantic Dream"
+            ],
+            "publisher": [
+                "Sony Interactive Entertainment for playstation",
+                "Quantic Dream for pc"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "PlayStation 4",
+                "Windows"
+            ],
+            "releaseDate": [
+                "PlayStation 4: May 25 2018",
+                "December 12 2019"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/e/ee/Detroit_Become_Human.jpg"
+        },
+        {
+            "title": "Fall Guys",
+            "genre": [
+                "Battle royale",
+                "platformer"
+            ],
+            "developer": [
+                "Mediatonic"
+            ],
+            "publisher": [
+                "Devlover Digital"
+            ],
+            "engine": "Unity",
+            "platform": [
+                "Windows",
+                "PlayStation 4",
+                "Android",
+                "iOS"
+            ],
+            "releaseDate": [
+                "Windows and PlayStation 4, worldwide: August 4 2020",
+                "Android and iOS: Peoples Republic of China, TBD"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/5/5e/Fall_Guys_cover.jpg"
+        },
+        {
+            "title": "Genshin Impact",
+            "genre": [
+                "Action",
+                "Role-playing"
+            ],
+            "developer": [
+                "miHoYo"
+            ],
+            "publisher": [
+                "miHoYo"
+            ],
+            "engine": "Unity",
+            "platform": [
+                "Windows",
+                "PlayStation 4",
+                "Android",
+                "iOS",
+                "Nintendo Switch",
+                "PlayStation 5"
+            ],
+            "releaseDate": [
+                "Windows, Playstation 4, Android, iOS, world wide: September 28 2020",
+                "PlayStation 5 and Nintendo Switch: TBD"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/commons/5/5d/Genshin_Impact_logo.svg"
+        },
+        {
+            "title": "Luigi's Mansion 3",
+            "genre": [
+                "Action-adventure"
+            ],
+            "developer": [
+                "Next Level Games"
+            ],
+            "publisher": [
+                "Nintendo"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "Nintendo Switch"
+            ],
+            "releaseDate": [
+                "Nintendo Switch, world wide: October 31 2019"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/3/38/Luigi%27s_Mansion_3.jpg"
+        },
+        {
+            "title": "Marvel's Spider-Man",
+            "genre": [
+                "Action-adventure"
+            ],
+            "developer": [
+                "Insomniac Games"
+            ],
+            "publisher": [
+                "Sony Interactive Entertainment"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "PlayStation 4",
+                "PlayStation 5"
+            ],
+            "releaseDate": [
+                "PlayStation 4, world wide: September 7 2018",
+                "PlayStation 5, world wide: November 12 2020"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg"
+        },
+        {
+            "title": "Minecraft Dungeons",
+            "genre": [
+                "Dungeon crawler"
+            ],
+            "developer": [
+                "Mojang Studios",
+                "Double Even"
+            ],
+            "publisher": [
+                "Xbox Game Studios"
+            ],
+            "engine": "Unreal Engine",
+            "platform": [
+                "Nintendo Switch",
+                "PlayStation 4",
+                "Windows",
+                "Xbox 1",
+                "Xbox Seris X/s"
+            ],
+            "releaseDate": [
+                "May 26 2020 on all platforms, worldwide"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/7/73/Minecraft_Dungeons_cover_art.jpg"
+        },
+        {
+            "title": "Pokémon Sword and Shield",
+            "genre": [
+                "Role-Playing Game"
+            ],
+            "developer": [
+                "Game Freak"
+            ],
+            "publisher": [
+                "The Pokémon Company",
+                "Nintendo"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "Nintendo Switch"
+            ],
+            "releaseDate": [
+                "November 15 2019, world wide"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg"
+        },
+        {
+            "title":"Remothered: Broken Porcelain",
+            "genre": [
+                "Survival horror"
+            ],
+            "developer":[
+                "Stormind Games"
+            ],
+            "publisher":[
+                "Modus Games"
+            ],
+            "engine":"Unreal Engine",
+            "platform":[
+                "Microsoft Windows",
+                "PlayStation 4",
+                "Xbox One",
+                "Nintendo Switch"
+            ],
+            "releaseDate":[
+                "October 13, 2020 world wide"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/f/f5/Cover_Art_of_Remothered_Broken_Porcelain.jpg"
+        },
+        {
+            "title": "Spelunky 2",
+            "genre": [
+                "Platformer",
+                "Roguelike"
+            ],
+            "developer": [
+                "Mossmouth",
+                "BlitWorks"
+            ],
+            "publisher": [
+                "Mossmouth"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "PlayStation 4",
+                "Windows"
+            ],
+            "releaseDate": [
+                "PlayStation 4, world wide: September 15 2020",
+                "Windows, world wide: September 29 2020"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/5/5b/Spelunky_2_logo.jpg"
+        },
+        {
+            "title": "Super Mario Maker 2",
+            "genre": [
+                "Level editor",
+                "Platformer"
+            ],
+            "developer": [
+                "Nintendo EPD"
+            ],
+            "publisher": [
+                "Nintendo"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "Nintendo Switch"
+            ],
+            "releaseDate": [
+                "June 28 2019, world wide"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/c/c7/Super_Mario_Maker_2.jpg"
+        },
+        {
+            "title": "The Last of Us Part 2",
+            "genre": [
+                "Action-adventure"
+            ],
+            "developer": [
+                "Naughty Dog"
+            ],
+            "publisher": [
+                "Sony Interactive Entertainment"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "PlayStation 4"
+            ],
+            "releaseDate": [
+                "June 19 2020, world wide"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png"
+        },
+        {
+            "title": "The Legend of Zelda: Link's Awakening",
+            "genre": [
+                "Action-adventure"
+            ],
+            "developer": "Grezzo",
+            "publisher": [
+                "Nintendo"
+            ],
+            "engine": "Custom Engine",
+            "platform": [
+                "Nintendo Switch"
+            ],
+            "releaseDate": [
+                "September 20 2019, world wide"
+            ],
+            "url":"https://upload.wikimedia.org/wikipedia/en/7/74/The_Legend_of_Zelda_Link%27s_Awakening_%282019_video_game%29.jpg"
+        }
+    ]
+}
